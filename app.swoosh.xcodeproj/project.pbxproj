@@ -12,6 +12,7 @@
 		52B2894423B707D700590F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B2894223B707D700590F77 /* Main.storyboard */; };
 		52B2894623B707D700590F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B2894523B707D700590F77 /* Assets.xcassets */; };
 		52B2894923B707D700590F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B2894723B707D700590F77 /* LaunchScreen.storyboard */; };
+		52B2895223B737AA00590F77 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2895123B737AA00590F77 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		52B2894523B707D700590F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B2894823B707D700590F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B2894A23B707D700590F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B2895123B737AA00590F77 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		52B2893D23B707D700590F77 /* app.swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				52B2895023B7376F00590F77 /* views */,
 				52B2893E23B707D700590F77 /* AppDelegate.swift */,
 				52B2894023B707D700590F77 /* ViewController.swift */,
 				52B2894223B707D700590F77 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				52B2894A23B707D700590F77 /* Info.plist */,
 			);
 			path = app.swoosh;
+			sourceTree = "<group>";
+		};
+		52B2895023B7376F00590F77 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				52B2895123B737AA00590F77 /* BorderButton.swift */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				52B2894123B707D700590F77 /* ViewController.swift in Sources */,
 				52B2893F23B707D700590F77 /* AppDelegate.swift in Sources */,
+				52B2895223B737AA00590F77 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
